@@ -6,6 +6,7 @@ It is a guide of MSSQL migration in Windows 10.
 - Microsoft SQL Server Management Studio
 - PowerShell ISE
 - phpMyAdmin
+- [CSV Splitter](https://www.erdconcepts.com/dbtoolbox.html)
 
 ## Migration Guide
 1. Import database to MSSQL
@@ -107,5 +108,5 @@ It is a guide of MSSQL migration in Windows 10.
             #xampp\phpMyAdmin\config.inc.php  
             $cfg['ExecTimeLimit'] = 0;  
             ```      
-        
+   - If the file is too large, spilt it by CSV Splitter     
    
